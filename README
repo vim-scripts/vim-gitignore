@@ -1,0 +1,66 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5183
+
+This plugin (https://github.com/gisphm/vim-gitignore) provides syntax highlighting and code snippets
+(using [snipMate][1], [neosnippet][2], or [ultisnips][3])
+based on github's [gitignore][7].
+It is forked from gitiginore.vim(http://www.vim.org/scripts/script.php?script_id=4568).
+The difference is that this plugin's snippets can support more snippet engines.
+
+
+Requirements
+------------
+
+* For using code snippets your should install
+[snipMate][1], [neosnippet][2], or [ultisnips][3].
+
+
+Usage
+-----
+
+### Snippets
+
+`vim-gitignore` contains a set of snippets. You can use it by
+opening your `.gitignore` file, typing snippet name (for example, `Python`)
+and pressing `<Tab>` key or other key defined in your vimrc.
+
+You can execute the script [rebuild-snippets](rebuild-snippets) to rebuild snippets
+from gitignore files provided by github's [gitignore][7].
+
+
+List
+-----
+The following is the list of snippets in the [snippets](snippets/gitignore) folder
+
+```shell
+actionscript,ada,agda,android,appceleratortitanium,appcode,archives,
+archlinuxpackages,autotools,bancha,basercms,bower,bricxcc,c,c++,cakephp,
+cfwheels,chefcookbook,clojure,cloud9,cmake,codeigniter,codekit,commonlisp,
+compass,composer,concrete5,coq,cvs,dart,darteditor,delphi,django,dotsettings,
+dreamweaver,drupal,eagle,eclipse,elasticbeanstalk,elisp,elixir,emacs,ensime,
+episerver,erlang,espresso,expressionengine,fancy,finale,flexbuilder,forcedotcom,
+freepascal,fuelphp,gcov,go,gradle,grails,gwt,haskell,intellij,java,jboss,jekyll,
+jetbrains,joe,joomla,justcode,jython,kate,kdevelop4,kohana,komodoedit,laravel,
+latex,lazarus,leiningen,lemonstand,lilypond,linux,lithium,magento,matlab,maven,
+mercurial,meteor,modelsim,monodevelop,nanoc,netbeans,node,notepadpp,objective-c,
+ocaml,opa,opencart,openfoam,oracleforms,osx,perl,ph7cms,phpstorm,playframework,
+plone,prestashop,processing,pycharm,python,qooxdoo,qt,quartus2,r,rails,redcar,
+rhodesrhomobile,ros,ruby,rubymine,rubymotion,sass,sbt,scala,scrivener,sdcc,
+seamgen,senchatouch,silverstripe,sketchup,stella,sublimetext,sugarcrm,svn,
+symfony,symfony2,symphonycms,tags,target3001,tarmainstallmate,tasm,tex,textmate,
+textpattern,turbogears2,typo3,unity,vagrant,vim,virtualenv,visualstudio,vvvv,
+waf,wakanda,webmethods,webstorm,windows,wordpress,xamarinstudio,xcode,xilinxise,
+yeoman,yii,zendframework
+```
+
+Another Option
+--------------
+
+You can alse follow [gitignore.io][6] to generate `.gitignore` file in your project.
+
+[1]: https://github.com/garbas/vim-snipmate
+[2]: https://github.com/Shougo/neosnippet.vim
+[3]: https://github.com/SirVer/ultisnips
+[4]: https://github.com/gmarik/vundle
+[5]: https://github.com/Shougo/neobundle.vim
+[6]: https://www.gitignore.io
+[7]: https://github.com/github/gitignore
